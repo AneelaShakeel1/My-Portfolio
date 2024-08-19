@@ -45,7 +45,7 @@ const Portfolio = () => {
       title: "QuickBite-Hotel",
       img: IMG5,
       description:
-        "QuickBite is a cutting-edge food delivery app, featuring real-time order tracking and a task-based rewards system which makes the experience engaging and enjoyable for users, showcasing my expertise in creating innovative and user-centric applications.",
+        "QuickBite-Hotel app enables hotels to effortlessly manage their schedules, upload images, and add menu details, enhancing operational efficiency. Featuring a finance graph for tracking performance, it streamlines hotel management while providing a user-friendly experience. This app is mainly functionally developed with JavaScript.",
       technologies: "React Native | JavaScript",
       link: "https://fs-code-task-two.vercel.app/",
       github: "https://github.com/AneelaShakeel1/React-Native-Mobile-Apps/blob/main/QuickBite-Hotel%20App.apk",
@@ -55,7 +55,7 @@ const Portfolio = () => {
       title: "Efoot",
       img: IMG3,
       description:
-        "A booking website for doctor's appointments at the hospital. The website is mainly functionally developed with JavaScript",
+        "eFoot is a cutting-edge football match app crafted for players, offering real-time game tracking and detailed performance analytics. Built primarily with JavaScript, it ensures a dynamic and responsive user experience. This app highlights my ability to create innovative, player-focused solutions in sports technology.",
       technologies: "React Native | JavaScript",
       link: "https://fs-code-task-two.vercel.app/",
       github: "https://github.com/AneelaShakeel1/React-Native-Mobile-Apps/blob/main/EFooter%20App.apk",
