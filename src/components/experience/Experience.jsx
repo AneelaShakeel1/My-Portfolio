@@ -87,6 +87,14 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Git </h4>
             </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>SQA </h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Software Testing </h4>
+            </article>
           </div>
         </div>
       </div>

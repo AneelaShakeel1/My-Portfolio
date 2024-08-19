@@ -2,7 +2,8 @@ import "./portfolio.css";
 
 import IMG1 from "../../assets/Bachay App.png";
 import IMG2 from "../../assets/Arabiata App.png";
-import IMG4 from "../../assets/QuickBite.png";
+import IMG4 from "../../assets/QuickBite-User.png";
+import IMG5 from "../../assets/QuickBite-Hotel.png";
 import IMG3 from "../../assets/Efoot.png";
 import React from "react";
 
@@ -31,7 +32,7 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: "QuickBite",
+      title: "QuickBite-User",
       img: IMG4,
       description:
         "QuickBite is a cutting-edge food delivery app, featuring real-time order tracking and a task-based rewards system which makes the experience engaging and enjoyable for users, showcasing my expertise in creating innovative and user-centric applications.",
@@ -40,14 +41,24 @@ const Portfolio = () => {
       github: "https://github.com/AneelaShakeel1/React-Native-Mobile-Apps/blob/main/QuickBite%20App.apk",
     },
     {
-      id: 3,
+      id: 4,
+      title: "QuickBite-Hotel",
+      img: IMG5,
+      description:
+        "QuickBite is a cutting-edge food delivery app, featuring real-time order tracking and a task-based rewards system which makes the experience engaging and enjoyable for users, showcasing my expertise in creating innovative and user-centric applications.",
+      technologies: "React Native | JavaScript",
+      link: "https://fs-code-task-two.vercel.app/",
+      github: "https://github.com/AneelaShakeel1/React-Native-Mobile-Apps/blob/main/QuickBite-Hotel%20App.apk",
+    },
+    {
+      id: 5,
       title: "Efoot",
       img: IMG3,
       description:
         "A booking website for doctor's appointments at the hospital. The website is mainly functionally developed with JavaScript",
       technologies: "React Native | JavaScript",
       link: "https://fs-code-task-two.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/FS-Code-Task",
+      github: "https://github.com/AneelaShakeel1/React-Native-Mobile-Apps/blob/main/EFooter%20App.apk",
     },
   ];
 
@@ -76,14 +87,14 @@ const Portfolio = () => {
               >
                 App Link
               </a>
-              <a
+              {/* <a
                 href={pro.link}
                 target="_blank"
                 className="btn btn-primary"
                 rel="noreferrer"
               >
                 Live Demo
-              </a>
+              </a> */}
             </div>
           </article>
         ))}
